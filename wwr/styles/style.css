@@ -7,6 +7,7 @@ nav a  {
     text-align: center;
     color: #73B158;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -21,6 +22,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #275E0D;
@@ -28,6 +33,10 @@ main section {
 
 body {
     background-color: #275E0D;
+    font-family:'Roboto', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -39,9 +48,13 @@ header {
  }
 
  .book, .join {
-     background-color: #275E0D;
-     color: #73B158;
+     background-color: #73B158;
+     color: white;
      text-decoration: none;
+     font-size: 18px;
+     padding: 4px 10px;
+     margin-top: 10px;
+     border-radius: 5px;
  }
 
  .book:hover, .join:hover {
@@ -51,10 +64,17 @@ header {
 
  .msg {
      background-color: #275E0D;
+     line-height: 1.5em;
+     
  }
 
  footer {
-     background-color: #275E0D;
+     background-color: #73B158;
+     padding: 25px 50px;
+ }
+
+ footer .social img {
+     padding-top: 15px;
  }
 
  footer h3 {
@@ -74,6 +94,7 @@ header {
 
  .home-title {
      color: white;
+     font-size: 2em;
  }
 
  h4 {
@@ -82,9 +103,11 @@ header {
 
  .msg h2 {
     color: white;
+    font-family: 'Roboto', sans-serif;
  }
  .msg p {
      color: white;
+    
  }
 
  .logo {
@@ -98,3 +121,13 @@ header {
  #hero-img {
      width: 100%;
  }
+
+ h2 {
+     margin: 0;
+ }
+
+ .card-img {
+    border: 10px solid white ;
+ }
+
+
